@@ -71,7 +71,6 @@ main {
   border-radius: 20px;
   margin-right: 40px;
   margin-top: 80px;
-  z-index: -1;
 }
 .aside-nav {
   display: flex;
@@ -256,16 +255,10 @@ h1 {
   box-shadow: 0px 4px 6px 4px rgb(209, 206, 206);
   color: #50aa9f;
 }
-
-.play-button i {
-  line-height: 35px;
-}
-
 button:hover {
-  border: 1px solid #ff5500;
-  background-color: #ff5500;
-}
+  border: 1px solid #50aa9f;
 
+}
 .content-container {
   display: flex;
   justify-content: space-between;
@@ -396,7 +389,7 @@ ol h5 {
   border-radius: 180px;
   border: none;
   background-color: #ffffff;
-  box-shadow: 0px 3px 5px 4px rgb(209, 206, 206);
+  box-shadow: 0px 3px 5px 0px rgb(209, 206, 206);
 }
 .arrow-up i {
   color: #0eb3a2;
